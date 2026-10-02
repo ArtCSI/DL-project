@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets / generated data
+data/raw/
+data/yolo/
+data/*.zip
+*.cache
+
+# Training artifacts / checkpoints / generated experiment files
+artifacts/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
